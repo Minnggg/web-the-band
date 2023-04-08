@@ -491,3 +491,11 @@ font-size: 10px;
     text-decoration: none;
 
 }
+
+
+/* PC */
+
+@media (min-width: 1024px) { 
+    
+}
+
