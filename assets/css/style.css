@@ -299,6 +299,7 @@ font-size: 10px;
      padding: 11px 16px;
      display: inline-block;
      margin-top: 25px;
+     border: none;
 }
 
 .place-buy-btn:hover {
@@ -454,6 +455,8 @@ font-size: 10px;
     border: 1px solid #000;
     padding: 10px 16px;
     float: right;
+    border: none;
+
 }
 
 .form-submit-btn:hover {
@@ -466,6 +469,25 @@ font-size: 10px;
     width: 100%;
 }   
 
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+    font-size: 24px;
+   
+}
+
+.socials-list {
+    padding: 10px;
+}
 
 
-/* fsf */
+.socials-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+#footer .link-to-w3 {
+    text-decoration: none;
+
+}
