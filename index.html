@@ -36,10 +36,6 @@
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
             </div>
-            <div id="mobile-menu" class="mobile-menu-btn">
-                <i class="menu-icon ti-menu"></i>
-            </div>
-
             <!--End : Search button-->
             
         </div>
@@ -94,8 +90,8 @@
                         <li>November <span class="quantity">3</span></li>
                     </ul>
                     <!--Place-->
-                    <div class=" place-list row">
-                        <div class="place-item place-mobile col">
+                    <div class="place-list row">
+                        <div class="place-item col">
                             <img class="place-img" src="https://www.w3schools.com/w3images/newyork.jpg" alt="">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -104,7 +100,7 @@
                                 <button href="#" class="js-buy-ticket place-buy-btn">Buy Tickets</button>
                             </div>
                         </div>
-                        <div  class="place-item place-mobile col">
+                        <div  class="place-item col">
                             <img class="place-img" src="https://www.w3schools.com/w3images/paris.jpg" alt="">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -113,7 +109,7 @@
                                 <button href="#" class="js-buy-ticket place-buy-btn">Buy Tickets</button>
                             </div>
                         </div>
-                        <div  class="place-item place-mobile col">
+                        <div  class="place-item col">
                             <img class="place-img" src="https://www.w3schools.com/w3images/sanfran.jpg" alt="">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -139,19 +135,19 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
                 <div class="row contact-content">
-                    <div class="col full col-half contact-info">
+                    <div class="col col-half contact-info">
                         <p><i class=" ti-location-pin"></i>Chicago, US</p>
                         <p><i class=" ti-mobile"></i>Phone: +00 151515</p>
                         <p><i class=" ti-email"></i>Email: mail@mail.com</p>
                     </div>
 
-                    <div class="col full col-half">
+                    <div class="col col-half">
                         <form action="">
                             <div class="row">
-                                <div class="col full col-half contact-form">
+                                <div class="col col-half contact-form">
                                     <input type="text" class="form-control" required placeholder="Name">
                                 </div> 
-                                <div class="col full col-half contact-form">
+                                <div class="col col-half contact-form">
                                     <input type="email" class="form-control" required placeholder="Email">
                                 </div>   
                             </div>
@@ -252,25 +248,7 @@
         })
     </script>
 
-    <script>
 
-        //đóng mở menu
-        const header=document.getElementById('header');
-        const mobileMenu=document.getElementById('mobile-menu');
-        var headerHeight = header.clientHeight;
-        mobileMenu.onclick=function () {
-            var isClosed = header.clientHeight === headerHeight;
-            if(isClosed) {
-                header.style.height='auto';
-            }
-            else 
-            {
-                header.style.height=null;
-            }
-
-        }
-        
-    </script>
 
 
 </body>
