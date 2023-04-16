@@ -51,7 +51,6 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 #nav{
     display: inline-block;
@@ -83,7 +82,7 @@ html{
     background-color: #ccc;
 }
 
-#nav li:hover.subnav
+#nav li:hover .subnav
 {
     display: block;
 }
@@ -513,6 +512,10 @@ font-size: 10px;
 /* Mobile */
 
 @media (max-width: 739px) { 
+    #header {
+      overflow: hidden;
+
+    }
     #nav >li {
         display: block;
     }
